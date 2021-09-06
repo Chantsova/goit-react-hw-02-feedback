@@ -5,15 +5,15 @@
   padding: 25px;
   background: linear-gradient(
       45deg,
-      rgba(246, 215, 253, 0.8),
-      rgba(165, 215, 241, 0.5)
+      var(--wrapper-bg-light),
+      var(--wrapper-bg-dark)
     ),
     url('./unicorn.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 
-  box-shadow: rgba(165, 215, 241, 1) 0px 0px 5px 5px,
-    rgba(124, 204, 148, 0.5) 10px -10px, rgba(255, 217, 19, 0.5) 20px -20px,
-    rgba(255, 156, 85, 0.5) 30px -30px, rgba(246, 215, 253, 1) 40px -40px;
+  box-shadow: var(--img-shadow-blue) 0px 0px 5px 5px,
+    var(--img-shadow-green) 10px -10px, var(--img-shadow-yellow) 20px -20px,
+    var(--img-shadow-orange) 30px -30px, var(--img-shadow-pink) 40px -40px;
 }

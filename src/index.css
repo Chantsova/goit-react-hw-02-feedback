@@ -1,19 +1,22 @@
 @import-normalize;
 
 :root {
-  --good-rate-color: rgba(36, 136, 16, 0.8);
-  --neutral-rate-color: rgba(35, 108, 150, 0.8);
-  --bad-rate-color: rgba(177, 55, 18, 0.8);
-
-  --darkest-text-color: rgba(24, 31, 49, 0.8);
-  --dark-text-color: rgba(24, 31, 49, 0.5);
-  --background-avatar-color: rgb(217, 217, 245);
-  --online-color: rgb(98, 145, 98);
-  --offline-color: rgb(226, 155, 155);
-  --light-gradient-color: rgb(166, 166, 192);
-  --dark-gradient-color: rgb(122, 141, 228);
-  --darkest-gradient-color: rgb(38, 38, 75);
-  --location-color: rgb(39, 39, 85, 0.8);
+  --good-rate-color: rgba(22, 121, 22, 0.3);
+  --neutral-rate-color: rgba(83, 140, 204, 0.3);
+  --bad-rate-color: rgba(243, 76, 76, 0.3);
+  --total-color: rgba(199, 155, 193, 0.3);
+  --percentage-color: rgba(242, 245, 75, 0.3);
+  --darkest-text-color: rgba(14, 30, 37, 0.7);
+  --section-title--shadow-color: blueviolet;
+  --section-title-color: rgb(69, 69, 238);
+  --feedback-background-color: rgba(101, 198, 240, 0.4);
+  --wrapper-bg-light: rgba(246, 215, 253, 0.8);
+  --wrapper-bg-dark: rgba(165, 215, 241, 0.5);
+  --img-shadow-blue: rgba(165, 215, 241, 1);
+  --img-shadow-green: rgba(124, 204, 148, 0.5);
+  --img-shadow-yellow: rgba(255, 217, 19, 0.5);
+  --img-shadow-orange: rgba(255, 156, 85, 0.5);
+  --img-shadow-pink: rgba(246, 215, 253, 1);
 }
 
 body {

@@ -20,26 +20,26 @@
 .rate__item__subtitle {
   font-weight: 600;
   text-align: center;
-  color: rgba(14, 30, 37, 0.7);
+  color: var(--darkest-text-color);
   height: 56px;
 }
 
 .rate__item--good {
-  background-color: rgba(22, 121, 22, 0.3);
+  background-color: var(--good-rate-color);
 }
 
 .rate__item--neutral {
-  background-color: rgba(83, 140, 204, 0.3);
+  background-color: var(--neutral-rate-color);
 }
 
 .rate__item--bad {
-  background-color: rgba(243, 76, 76, 0.3);
+  background-color: var(--bad-rate-color);
 }
 
 .rate__item--total {
-  background-color: rgba(199, 155, 193, 0.3);
+  background-color: var(--total-color);
 }
 
 .rate__item--percent {
-  background-color: rgba(242, 245, 75, 0.3);
+  background-color: var(--percentage-color);
 }
