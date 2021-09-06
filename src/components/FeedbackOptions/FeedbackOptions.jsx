@@ -3,9 +3,10 @@ import React from 'react';
 
 function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
-    <div>
+    <div className="feedback">
       {options.map(option => (
         <button
+          className="feedback__btn"
           type="button"
           key={option}
           onClick={() => onLeaveFeedback(option)}

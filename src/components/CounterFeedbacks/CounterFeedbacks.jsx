@@ -29,9 +29,9 @@ class CounterFeedback extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className="wrapper">
           <Section
-            title={'Please, leave feedback'}
+            title={'Magical unicorns want your opinion!'}
             children={
               <FeedbackOptions
                 options={Object.keys(this.state)}

@@ -1,7 +1,11 @@
 import './Notification.css';
 
 function Notification({ message }) {
-  return <h2>{message}</h2>;
+  return (
+    <div className="nofeedback">
+      <h2 className="nofeedback__title">{message}</h2>
+    </div>
+  );
 }
 
 export default Notification;
